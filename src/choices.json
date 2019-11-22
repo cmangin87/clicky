@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "name": "Homer Simpson",
+    "image": ".images/homer.png"
+  },
+  {
+    "id": 2,
+    "name": "Marge Simpson",
+    "image": ".images/marge.png"
+  },
+  {
+    "id": 3,
+    "name": "Bart Simpson",
+    "image": ".images/bart.png"
+  },
+  {
+    "id": 4,
+    "name": "Lisa Simpson",
+    "image": "./images/lisa.png"
+  },
+  {
+    "id": 5,
+    "name": "Maggie Simpson",
+    "image": "./images/maggie.png"
+  },
+  {
+    "id": 6,
+    "name": "Apu",
+    "image": "./images/apu.png"
+  },
+  {
+    "id": 7,
+    "name": "Barney Gumble",
+    "image": "./images/barney.png"
+  },
+  {
+    "id": 8,
+    "name": "Chief Wiggum",
+    "image": "./images/wiggum.png"
+  },
+  {
+    "id": 9,
+    "name": "Comic Book Guy",
+    "image": "./images/comicbookguy.png"
+  },
+  {
+    "id": 10,
+    "name": "Disco Stu",
+    "image": "./images/discostu.png"
+  },
+  {
+    "id": 11,
+    "name": "Edna Krabappel",
+    "image": "./images/edna.png"
+  },
+  {
+    "id": 12,
+    "name": "Ned Flanders",
+    "image": "./images/flanders.png"
+  },
+  {
+    "id": 13,
+    "name": "Abraham Simpson",
+    "image": "./images/grampa.png"
+  },
+  {
+    "id": 14,
+    "name": "Kent Brockman",
+    "image": "./images/kentbrockman.png"
+  },
+  {
+    "id": 15,
+    "name": "Krusty the Clown",
+    "image": "./images/krusty.png"
+  },
+  {
+    "id": 16,
+    "name": "Lionel Hutz",
+    "image": "./images/lionelhutz.png"
+  },
+  {
+    "id": 17,
+    "name": "Martin Prince",
+    "image": "./images/martin.png"
+  },
+  {
+    "id": 18,
+    "name": "Moe Scyzlack",
+    "image": "./images/moe.png"
+  },
+  {
+    "id": 19,
+    "name": "Hans Moleman",
+    "image": "./images/moleman.png"
+  },
+  {
+    "id": 20,
+    "name": "Mr. Burns",
+    "image": "./images/mrburns.png"
+  },
+  {
+    "id": 21,
+    "name": "Joe Quimby",
+    "image": "./images/quimby.png"
+  },
+  {
+    "id": 22,
+    "name": "Ralph Wiggum",
+    "image": "./images/ralph.png"
+  },
+  {
+    "id": 23,
+    "name": "Santa's Little Helper",
+    "image": "./images/santaslittlehelper.png"
+  },
+  {
+    "id": 24,
+    "name": "Principal Skinner",
+    "image": "./images/skinner.png"
+  },
+  {
+    "id": 25,
+    "name": "Troy McClure",
+    "image": "./images/troymcclure.png"
+  }
+]
