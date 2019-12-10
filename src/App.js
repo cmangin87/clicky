@@ -27,3 +27,12 @@ class App extends Component {
     
         return array;
       };
+
+    resetGame = () => {
+        const randomizedChoices = this.randomize(this.state.choices);
+    
+        this.setState({
+          clicked: [],
+          choices: randomizedChoices
+        });
+      };
