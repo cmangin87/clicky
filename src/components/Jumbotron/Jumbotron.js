@@ -1,20 +1,17 @@
 import React from 'react';
 
-const Jumbtron = props => {
+const Jumbotron = props => {
   return (
     <div
       className={`
       jumbotron jumbotron-fluid p-2 text-center ${
         props.dark ? 'bg-dark text-light' : 'bg-light text-dark'
       } `}>
-      <span className="m-3" style={{ fontSize: 30 }}>
-        Score: {props.score}
-      </span>
-      <span className="m-3" style={{ fontSize: 30 }}>
-        High Score: {props.highScore}
-      </span>
+      {/* <span className="m-3 jumboTitle" style={{ fontSize: 25 }}></span> */}
+      <span className="m-3 jumboTitle" style={{ fontSize: 25 }}></span>
+      Current Score: {props.score}<br></br>High Score: {props.highScore}
     </div>
   );
 };
 
-export default Jumbtron;
+export default Jumbotron;

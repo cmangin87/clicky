@@ -1,127 +1,122 @@
 [
   {
     "id": 1,
-    "name": "Homer Simpson",
-    "image": ".images/homer.png"
+    "name": "",
+    "image": "./images/homer.png"
   },
   {
     "id": 2,
-    "name": "Marge Simpson",
-    "image": ".images/marge.png"
+    "name": "",
+    "image": "./images/marge.png"
   },
   {
     "id": 3,
-    "name": "Bart Simpson",
-    "image": ".images/bart.png"
+    "name": "",
+    "image": "./images/bart.png"
   },
   {
     "id": 4,
-    "name": "Lisa Simpson",
+    "name": "",
     "image": "./images/lisa.png"
   },
   {
     "id": 5,
-    "name": "Maggie Simpson",
+    "name": "",
     "image": "./images/maggie.png"
   },
   {
     "id": 6,
-    "name": "Apu",
+    "name": "",
     "image": "./images/apu.png"
   },
   {
     "id": 7,
-    "name": "Barney Gumble",
+    "name": "",
     "image": "./images/barney.png"
   },
   {
     "id": 8,
-    "name": "Chief Wiggum",
+    "name": "",
     "image": "./images/wiggum.png"
   },
   {
     "id": 9,
-    "name": "Comic Book Guy",
+    "name": "",
     "image": "./images/comicbookguy.png"
   },
   {
     "id": 10,
-    "name": "Disco Stu",
+    "name": "",
     "image": "./images/discostu.png"
   },
   {
     "id": 11,
-    "name": "Edna Krabappel",
+    "name": "",
     "image": "./images/edna.png"
   },
   {
     "id": 12,
-    "name": "Ned Flanders",
+    "name": "",
     "image": "./images/flanders.png"
   },
   {
     "id": 13,
-    "name": "Abraham Simpson",
+    "name": "",
     "image": "./images/grampa.png"
   },
   {
     "id": 14,
-    "name": "Kent Brockman",
+    "name": "",
     "image": "./images/kentbrockman.png"
   },
   {
     "id": 15,
-    "name": "Krusty the Clown",
+    "name": "",
     "image": "./images/krusty.png"
   },
   {
     "id": 16,
-    "name": "Lionel Hutz",
+    "name": "",
     "image": "./images/lionelhutz.png"
   },
   {
     "id": 17,
-    "name": "Martin Prince",
+    "name": "",
     "image": "./images/martin.png"
   },
   {
     "id": 18,
-    "name": "Moe Scyzlack",
+    "name": "",
     "image": "./images/moe.png"
   },
   {
     "id": 19,
-    "name": "Hans Moleman",
+    "name": "",
     "image": "./images/moleman.png"
   },
   {
     "id": 20,
-    "name": "Mr. Burns",
+    "name": "",
     "image": "./images/mrburns.png"
   },
   {
     "id": 21,
-    "name": "Joe Quimby",
+    "name": "",
     "image": "./images/quimby.png"
   },
   {
     "id": 22,
-    "name": "Ralph Wiggum",
+    "name": "",
     "image": "./images/ralph.png"
   },
   {
     "id": 23,
-    "name": "Santa's Little Helper",
-    "image": "./images/santaslittlehelper.png"
-  },
-  {
-    "id": 24,
-    "name": "Principal Skinner",
+    "name": "",
     "image": "./images/skinner.png"
   },
   {
-    "id": 25,
-    "name": "Troy McClure",
+    "id": 24,
+    "name": "",
     "image": "./images/troymcclure.png"
   }
 ]

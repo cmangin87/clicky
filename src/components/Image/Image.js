@@ -5,7 +5,7 @@ const Image = ({ id, name, image, handleClickOnImage }) => {
     <img
       src={image}
       alt={name}
-      className="img-fluid w-100 h-50"
+      className="img-fluid w-38 h-52"
       onClick={() => handleClickOnImage(id)}
     />
   );

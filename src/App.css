@@ -1,10 +1,74 @@
+* {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+body {
+  background-size: 1em 1em;
+  background-color: yellow;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.jumbotron {
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.jumboTitle {
+  float: left;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.card-header {
+  text-align: center;
+  font-size: 12px !important;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.card {
+  block-size: 170px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -24,7 +88,7 @@
 }
 
 .card-header {
-  font-size: 40px !important;
+  font-size: 20px !important;
 }
 
 @keyframes App-logo-spin {
@@ -34,4 +98,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

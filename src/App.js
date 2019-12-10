@@ -36,3 +36,66 @@ class App extends Component {
           choices: randomizedChoices
         });
       };
+
+      handleClickOnImage = id => {
+        if (this.state.clicked.includes(id)) {
+          alert('Game Over. Try again.');
+          this.resetGame();
+        } else {
+          this.setState(
+            prevState => ({
+              clicked: [...prevState.clicked, id],
+              choices: this.randomize(this.state.choices)
+            }),
+            () => {
+              this.checkHighScore();
+              this.handleWin();
+            }
+          );
+        }
+      };
+
+      checkHighScore = () => {
+        if (this.state.clicked.length > this.state.highScore) {
+          this.setState({highScore: this.state.clicked.length});
+        }
+      };
+    
+    
+      handleWin = () => {
+        if (this.state.clicked.length === this.state.choices.length) {
+          alert('You Win!');
+          this.resetGame();
+        }
+      };
+    
+    
+      render() {
+    
+        const {clicked, highScore, choices} = this.state;
+    
+        return (
+          <Container>
+            <Jumbotron score={clicked.length} highScore={highScore} dark />
+            <Row helper={`justify-content-center`}>
+              {choices.map(({ id, name, image }) => {
+                return (
+                  <Column key={id} md={2}>
+                    <Card header={name} dark>
+                      <Image
+                        id={id}
+                        name={name}
+                        image={image}
+                        handleClickOnImage={this.handleClickOnImage}
+                      />
+                    </Card>
+                  </Column>
+                );
+              })}
+            </Row>
+          </Container>
+        );
+      }
+    }
+    
+    export default App;
